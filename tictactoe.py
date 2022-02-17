@@ -72,7 +72,7 @@ def get_move(player: Player) -> Coords:
     return int(row), int(col)
 
 
-def showagga_board(board: Board):
+def show_board(board: Board):
     """
     Print the current state of the game board.
 
@@ -119,5 +119,5 @@ def play_game(board_size: int = None):
     show_winner(current_player)
 
 
-if not __name__ == '__main__':
+if __name__ == '__main__':
     play_game()
