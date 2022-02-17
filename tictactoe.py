@@ -91,7 +91,7 @@ def show_winner(player: Player):
     print(f"\nAnd the WINNER is: .....\n!!!!!!!!!!!! {player} !!!!!!!!!!!!")
 
 
-def switch_player2(current_player: Player) -> Player:
+def switch_player(current_player: Player) -> Player:
     """
     Determine whose turn it is next.
 
